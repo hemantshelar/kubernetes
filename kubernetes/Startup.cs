@@ -14,7 +14,7 @@ using Microsoft.Extensions.Options;
 namespace kubernetes
 {
     public class Startup
-    {
+    { 
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
